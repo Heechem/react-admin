@@ -136,7 +136,7 @@ export const themeSettings = (mode) => {
               main: colors.primary[500],
             },
             secondary: {
-              mai: colors.greenAccent[500],
+              main: colors.greenAccent[500],
             },
             neutral: {
               dark: colors.grey[700],
@@ -152,7 +152,7 @@ export const themeSettings = (mode) => {
               main: colors.primary[100],
             },
             secondary: {
-              mai: colors.greenAccent[500],
+              main: colors.greenAccent[500],
             },
             neutral: {
               dark: colors.grey[700],
@@ -214,5 +214,5 @@ export const useMode = () => {
 
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
 
-  return { theme, colorMode };
+  return [theme, colorMode];
 };
