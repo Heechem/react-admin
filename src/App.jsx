@@ -6,6 +6,7 @@ import Dashboard from './scenes/dashboard';
 import SideBar from './scenes/global/Sidebar';
 import Team from './team/Team';
 import Contacts from './scenes/contacts/Contacts';
+import Invoices from './scenes/invoices/Invoices';
 // import Team from './scenes/team';
 // import Invoices from './scenes/invoices';
 
@@ -39,6 +40,10 @@ function App() {
               <Route
                 path="contacts"
                 element={<Contacts />}
+              />
+              <Route
+                path="invoices"
+                element={<Invoices />}
               />
 
               {/* <Route
