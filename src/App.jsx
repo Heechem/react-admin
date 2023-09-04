@@ -5,9 +5,10 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import Dashboard from './scenes/dashboard';
 import SideBar from './scenes/global/Sidebar';
 import Team from './team/Team';
+import Contacts from './scenes/contacts/Contacts';
 // import Team from './scenes/team';
 // import Invoices from './scenes/invoices';
-// import Contacts from './scenes/contacts';
+
 // import Form from './scenes/form';
 // import Pie from './scenes/pie';
 // import Line from './scenes/line';
@@ -35,10 +36,10 @@ function App() {
                 path="team"
                 element={<Team />}
               />
-              {/* <Route
+              <Route
                 path="contacts"
                 element={<Contacts />}
-              /> */}
+              />
 
               {/* <Route
                 path="/form"
