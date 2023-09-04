@@ -7,16 +7,7 @@ import SideBar from './scenes/global/Sidebar';
 import Team from './team/Team';
 import Contacts from './scenes/contacts/Contacts';
 import Invoices from './scenes/invoices/Invoices';
-// import Team from './scenes/team';
-// import Invoices from './scenes/invoices';
-
-// import Form from './scenes/form';
-// import Pie from './scenes/pie';
-// import Line from './scenes/line';
-// import FAQ from './scenes/faq';
-// import Bar from './scenes/bar';
-// import Geography from './scenes/geography';
-// import Calendar from './scenes/calendar';
+import Form from './scenes/form/FormComponent';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -46,10 +37,10 @@ function App() {
                 element={<Invoices />}
               />
 
-              {/* <Route
+              <Route
                 path="/form"
                 element={<Form />}
-              /> */}
+              />
               {/* <Route
                 path="pie"
                 element={<Pie />}
