@@ -9,6 +9,7 @@ import Contacts from './scenes/contacts/Contacts';
 import Invoices from './scenes/invoices/Invoices';
 import Form from './scenes/form/FormComponent';
 import Calendar from './scenes/calendar/Calendar';
+import Faq from './scenes/faq/Faq';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -55,10 +56,10 @@ function App() {
                 path="line"
                 element={<Line />}
               /> */}
-              {/* <Route
+              <Route
                 path="faq"
-                element={<FAQ />}
-              /> */}
+                element={<Faq />}
+              />
               {/* <Route
                 path="geography"
                 element={<Geography />}
