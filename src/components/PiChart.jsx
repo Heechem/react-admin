@@ -34,7 +34,7 @@ const PiChart = () => {
         },
         legends: {
           text: {
-            fill: colors.grey[100],
+            fill: colors.grey[200],
           },
         },
       }}
@@ -49,7 +49,7 @@ const PiChart = () => {
         modifiers: [['darker', 0.2]],
       }}
       arcLinkLabelsSkipAngle={10}
-      arcLinkLabelsTextColor="#333333"
+      arcLinkLabelsTextColor={colors.grey[200]}
       arcLinkLabelsThickness={2}
       arcLinkLabelsColor={{ from: 'color' }}
       arcLabelsSkipAngle={10}
@@ -75,56 +75,6 @@ const PiChart = () => {
           rotation: -45,
           lineWidth: 6,
           spacing: 10,
-        },
-      ]}
-      fill={[
-        {
-          match: {
-            id: 'ruby',
-          },
-          id: 'dots',
-        },
-        {
-          match: {
-            id: 'c',
-          },
-          id: 'dots',
-        },
-        {
-          match: {
-            id: 'go',
-          },
-          id: 'dots',
-        },
-        {
-          match: {
-            id: 'python',
-          },
-          id: 'dots',
-        },
-        {
-          match: {
-            id: 'scala',
-          },
-          id: 'lines',
-        },
-        {
-          match: {
-            id: 'lisp',
-          },
-          id: 'lines',
-        },
-        {
-          match: {
-            id: 'elixir',
-          },
-          id: 'lines',
-        },
-        {
-          match: {
-            id: 'javascript',
-          },
-          id: 'lines',
         },
       ]}
       motionConfig="molasses"
