@@ -10,6 +10,8 @@ import Invoices from './scenes/invoices/Invoices';
 import Form from './scenes/form/FormComponent';
 import Calendar from './scenes/calendar/Calendar';
 import Faq from './scenes/faq/Faq';
+import BarChart from './components/BarChart';
+import Bar from './scenes/bar/Bar';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -47,10 +49,10 @@ function App() {
                 path="pie"
                 element={<Pie />}
               /> */}
-              {/* <Route
+              <Route
                 path="bar"
                 element={<Bar />}
-              /> */}
+              />
 
               {/* <Route
                 path="line"
