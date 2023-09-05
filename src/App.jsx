@@ -13,6 +13,7 @@ import Faq from './scenes/faq/Faq';
 import BarChart from './components/BarChart';
 import Bar from './scenes/bar/Bar';
 import Pie from './scenes/pie/Pie';
+import Line from './scenes/Line/Line';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -55,10 +56,10 @@ function App() {
                 element={<Bar />}
               />
 
-              {/* <Route
+              <Route
                 path="line"
                 element={<Line />}
-              /> */}
+              />
               <Route
                 path="faq"
                 element={<Faq />}
