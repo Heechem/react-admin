@@ -25,7 +25,7 @@ const userSchema = object({
     .matches(phoneRegExp, 'Phone is not valid')
     .required('required'),
   address1: string().required('required'),
-  address2: string().required('required'),
+  address2: string(),
 });
 
 const Form = () => {
