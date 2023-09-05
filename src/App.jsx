@@ -12,6 +12,7 @@ import Calendar from './scenes/calendar/Calendar';
 import Faq from './scenes/faq/Faq';
 import BarChart from './components/BarChart';
 import Bar from './scenes/bar/Bar';
+import Pie from './scenes/pie/Pie';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -45,10 +46,10 @@ function App() {
                 path="/form"
                 element={<Form />}
               />
-              {/* <Route
+              <Route
                 path="pie"
                 element={<Pie />}
-              /> */}
+              />
               <Route
                 path="bar"
                 element={<Bar />}
