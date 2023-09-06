@@ -14,6 +14,7 @@ import BarChart from './components/BarChart';
 import Bar from './scenes/bar/Bar';
 import Pie from './scenes/pie/Pie';
 import Line from './scenes/Line/Line';
+import Geography from './scenes/geography/Geography';
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -64,10 +65,10 @@ function App() {
                 path="faq"
                 element={<Faq />}
               />
-              {/* <Route
+              <Route
                 path="geography"
                 element={<Geography />}
-              /> */}
+              />
               <Route
                 path="calendar"
                 element={<Calendar />}
