@@ -1,4 +1,8 @@
-# React + Vite
+# React Dashboard
+
+### Link 
+
+https://dashboard-clone-mockdata.netlify.app/
 
 This is an admin dashboard UI using all following technologies : 
 
